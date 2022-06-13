@@ -1,0 +1,24 @@
+button[data-automation-id="pageCommandBarNewButton"] {
+    display: none !important;
+}
+body, /* entire body*/
+.ms-Nav, /*left navigation pane background*/
+#spPageChromeAppDiv /* whole page again*/
+{
+    background-color: #eeece1  !important;
+}
+.o365cs-base.o365cs-topnavBGColor-2, /* top bar*/
+.o365cs-base .o365cs-nav-rightMenus /* top bar menu right*/
+{
+    background-color: #17375e !important;
+}
+#O365_MainLink_Help,
+#O365_NavHeader button#O365_MainLink_NavMenu,
+#O365_NavHeader button#O365_MainLink_NavMenu_Responsive,
+.o365button.o365cs-nav-appTitle.o365cs-topnavText,
+.o365cs-nav-topItem.o365cs-rsp-m-hide.o365cs-rsp-tn-hideIfAffordanceOn,
+.o365button .o365cs-nav-brandingText,
+.o365cs-nav-brandingText /* Top bar Sharepoint text*/
+{
+    display: none !important;
+}
